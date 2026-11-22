@@ -44,7 +44,7 @@ public class InventarioService {
 
     public String listarInventario() {
         if (listaProductos.isEmpty()) {
-            return "El inventario se encuentra vacío.";
+            return "Error. El inventario se encuentra vacío.";
         }
 
         String reporte = "INVENTARIO DE PRODUCTOS EN BODEGA \n\n";

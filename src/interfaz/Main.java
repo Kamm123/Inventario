@@ -80,7 +80,7 @@ public class Main {
 
             } else if (opcion == 4) {
                 JOptionPane.showMessageDialog(null, "Proceso finalizado. Saliendo del sistema.", "Salida", JOptionPane.INFORMATION_MESSAGE);
-                System.out.println("Sistema finalizado.");
+                System.out.println("Sistema finalizado...");
 
             } else {
                 JOptionPane.showMessageDialog(null, "Error: Opción no válida. Intente nuevamente.", "Error", JOptionPane.ERROR_MESSAGE);

@@ -14,10 +14,10 @@ public class Main {
 
         do {
             System.out.println("\nSISTEMA DE GESTION DE INVENTARIOS ");
-            System.out.println("1. Registrar Producto Perecedero");
-            System.out.println("2. Registrar Producto No Perecedero");
-            System.out.println("3. Consultar Inventario Completo");
-            System.out.println("4. Salir");
+            System.out.println("1.  Registrar Producto Perecedero");
+            System.out.println("2.  Registrar Producto No Perecedero");
+            System.out.println("3.  Consultar Inventario Completo");
+            System.out.println("4.  Salir");
             System.out.print("Seleccione una opcion: ");
             opcion = sc.nextInt();
             sc.nextLine();

@@ -23,6 +23,6 @@ public class ProductoNoPerecedero extends Producto {
 
     @Override
     public String obtenerDetallesEspecificos() {
-        return "Tipo: No Perecedero | Garantía: " + garantiaMeses + " meses | Precio Final (con IVA): $" + calcularPrecioFinal();
+        return "Tipo: No Perecedero | Garantía: " + garantiaMeses + " meses | Precio Final (con IVA ): $" + calcularPrecioFinal();
     }
 }

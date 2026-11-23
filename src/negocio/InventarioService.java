@@ -21,10 +21,10 @@ public class InventarioService {
 
     public String registrarProducto(Producto p) {
         if (p.getPrecioBase() <= 0) {
-            return "Error: El precio base debe ser mayor a cero.";
+            return "Error. El precio base debe ser mayor a cero.";
         }
         if (p.getStock() <= 0) {
-            return "Error: La cantidad de stock debe ser mayor a cero.";
+            return "Error. La cantidad de stock debe ser mayor a cero.";
         }
         if (calcularStockTotal() + p.getStock() > CAPACIDAD_MAXIMA_BODEGA) {
             return "Error: Supera la capacidad máxima de la bodega (" + CAPACIDAD_MAXIMA_BODEGA + " unidades).";
